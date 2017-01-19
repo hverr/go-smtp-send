@@ -1,0 +1,8 @@
+server:
+  host: smtp.example.com:465
+  tls: true
+  verify-tls: true
+from: noreply@example.com
+auth:
+  username: noreply@example.com
+  password: super-secret-password
